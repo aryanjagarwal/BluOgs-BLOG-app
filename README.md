@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Tech Stack -
+1. NextJs
+2. Prisma
+3. Firebase Storage (for post image saving)
+4. MongoDB (database)
+5. Google OAuth 2.0 (authentication)
+6. AuthJs (authentication)
+
+## Features - 
+1. User authentication
+2. Pagination
+3. Post edit
+4. Post with image
+5. Post filter with categories
+
 ## Getting Started
 
 First, run the development server:
