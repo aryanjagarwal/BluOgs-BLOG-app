@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const getData = async () => {
-  const res = await fetch("https://bluogs-blogging-git-main-aryans-projects-e5116ced.vercel.app/api/categories", {
+  const res = await fetch("https://bluogs-blogging.vercel.app/api/categories", {
     cache: "no-store",
   });
 

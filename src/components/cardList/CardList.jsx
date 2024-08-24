@@ -6,7 +6,7 @@ import Card from "../card/Card";
 
 const getData = async (page, cat) => {
   const res = await fetch(
-    `https://bluogs-blogging-git-main-aryans-projects-e5116ced.vercel.app/api/posts?page=${page}&cat=${cat || ""}`,
+    `https://bluogs-blogging.vercel.app/api/posts?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }
